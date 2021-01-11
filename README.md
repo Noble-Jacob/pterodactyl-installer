@@ -1,4 +1,4 @@
-# pterodactyl-installer# :bird: pterodactyl-installer
+# :bird: pterodactyl-installer
 
 [![Build Status](https://travis-ci.com/vilhelmprytz/pterodactyl-installer.svg?branch=master)](https://travis-ci.com/vilhelmprytz/pterodactyl-installer)
 [![License: GPL v3](https://img.shields.io/github/license/vilhelmprytz/pterodactyl-installer)](LICENSE)
@@ -18,6 +18,9 @@ This project is available at [GitHub](https://github.com/vilhelmprytz/pterodacty
 - Panel: (optional) automatic configuration of Let's Encrypt.
 - Panel: (optional) automatic configuration of UFW (firewall for Ubuntu/Debian).
 
+## Help and support
+
+For help and support regarding the script itself and **not the official Pterodactyl project**, you can join the [Discord Chat](https://discord.gg/2zMdudJ).
 
 ## Supported installations
 
@@ -105,3 +108,9 @@ Then you can use `vagrant ssh <name of machine>` to SSH into the box. The projec
 There are a couple of files that each release commit should always change. Firstly, update the `CHANGELOG.md` so that the release date and release tag are both displayed. No changes should be made to the changelog points themselves. Secondly, update `GITHUB_SOURCE` and `SCRIPT_RELEASE` in both `install-panel.sh` and `install-wings.sh`. Thirdly, update `SCRIPT_RELEASE` in `install.sh`. Finally, you can now push a commit with the message `Release vX.Y.Z`. Create a release on GitHub. See [this commit](https://github.com/vilhelmprytz/pterodactyl-installer/commit/90aaae10785f1032fdf90b216a4a8d8ca64e6d44) for reference.
 
 When the release is published, push another commit which revers the changes you made to `install-wings.sh` and `install-panel.sh`. See [this commit](https://github.com/vilhelmprytz/pterodactyl-installer/commit/be5f361523d1d546d49eef8b3ce1a9145eded234) for reference.
+
+## Contributors ✨
+
+Created and maintained by [Vilhelm Prytz](https://github.com/vilhelmprytz).
+
+Special thanks to the Discord moderators [sam1370](https://github.com/sam1370) and [Linux123123](https://github.com/Linux123123) for helping on the Discord server!
